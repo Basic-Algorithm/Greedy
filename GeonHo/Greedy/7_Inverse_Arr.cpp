@@ -10,7 +10,7 @@
 //{
 //	cin >> str;
 //
-//	int cnt_change = 0;
+//	float cnt_change = 0;
 //	char lastLetter = str[0];
 //
 //	for (int i = 1; i < str.length(); i++)
@@ -28,9 +28,7 @@
 //	}
 //
 //
-//	cout << cnt_change / 2 << endl;
-//	int x = 1 / 2;
-//	cout << x;
+//	cout << ceil(cnt_change / 2) << endl;
 //}
 
 /*
