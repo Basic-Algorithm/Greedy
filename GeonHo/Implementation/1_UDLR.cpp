@@ -18,7 +18,7 @@ char moveType[4] = { 'L', 'R', 'U', 'D' };
 
 int main()
 {
-	cin >> _size;
+	cin >> _size; 
 	//버퍼 제거
 	cin.ignore();
 	//string 헤더 필요

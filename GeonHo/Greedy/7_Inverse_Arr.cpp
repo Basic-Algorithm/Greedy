@@ -1,35 +1,32 @@
-//#include <iostream>
-//#include <vector>
-//#include <algorithm>
-//
-//using namespace std;
-//
-//string str;
-//
-//int main()
-//{
-//	cin >> str;
-//
-//	float cnt_change = 0;
-//	char lastLetter = str[0];
-//
-//	for (int i = 1; i < str.length(); i++)
-//	{
-//		if (str[i] == '0' && lastLetter == '1')
-//		{
-//			lastLetter = '0';
-//			cnt_change++;
-//		}
-//		else if (str[i] == '1' && lastLetter == '0')
-//		{
-//			lastLetter = '1';
-//			cnt_change++;
-//		}
-//	}
-//
-//
-//	cout << ceil(cnt_change / 2) << endl;
-//}
+#include <iostream>
+
+using namespace std;
+
+string str;
+
+int main()
+{
+	cin >> str;
+
+	float cnt_change = 0;
+	char lastLetter = str[0];
+
+	for (int i = 1; i < str.length(); i++)
+	{
+		if (str[i] == '0' && lastLetter == '1')
+		{
+			lastLetter = '0';
+			cnt_change++;
+		}
+		else if (str[i] == '1' && lastLetter == '0')
+		{
+			lastLetter = '1';
+			cnt_change++;
+		}
+	}
+
+	cout << ceil(cnt_change / 2) << endl;
+}
 
 /*
 * 연속된 숫자를 모두 한번에 뒤집는것이 최소 시행을 만듦으로 그리디 알고리즘 사용
