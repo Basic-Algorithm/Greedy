@@ -28,7 +28,7 @@ int main()
 		arr_A[i] = arr_B[i];
 	}
 
-	//arr_A의 모든 원소의 합
+	//accumulate : arr_A.begin()~ end()까지 원소의 합, 초기값은 0
 	//numeric 헤더 필요
 	cout << accumulate(arr_A.begin(), arr_A.end(), 0);
 }
