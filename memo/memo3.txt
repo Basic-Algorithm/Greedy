@@ -1,5 +1,10 @@
 KUNHEE
+<Question1>
 Sorting_practice2_Updown.py
 출력을 리스트로 하면 감점될까?
 [27, 15 12]
 정답 : 27 15 12
+
+<Question2>
+3_Change_Elements.cpp
+line28 의 의미는 A 원소가 B 원소로 바꿔지는 것이고 B 원소는 변경되지 않는것인가?
