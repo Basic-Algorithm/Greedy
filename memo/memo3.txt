@@ -1,0 +1,5 @@
+KUNHEE
+Sorting_practice2_Updown.py
+출력을 리스트로 하면 감점될까?
+[27, 15 12]
+정답 : 27 15 12
