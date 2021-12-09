@@ -61,7 +61,7 @@ int main()
 	sort(students.begin(), students.end());
 
 	for (int i = 0; i < N; i++)
-		cout << students[i].name << endl;
+		cout << students[i].name << '\n';
 }
 
 /*
