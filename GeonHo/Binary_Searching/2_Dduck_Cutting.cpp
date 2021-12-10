@@ -19,9 +19,9 @@ int main()
 		dduck.push_back(x);
 	}
 
-	sort(dduck.begin(), dduck.end());
+	sort(dduck.begin(), dduck.end());		//sorting 필요없음
 
-	int ret = Binary_Search(dduck, M, 0, N - 1);
+	int ret = Binary_Search(dduck, M, 0, arr[N-1]);
 
 	cout << ret;
 
@@ -30,16 +30,17 @@ int main()
 
 int Binary_Search(vector<int> arr, int target, int start, int end)
 {
-	if (start == end) return arr[start];
+	if (start == end) return start;
 
-	int mid = (start + end) / 2;
+	int mid = (start + end)/ 2;
 	int temp_length = 0;
-	for (int i = mid; i < N; i++)
+	for (int i = 0; i < N; i++)
 	{
-		temp_length += arr[i] - arr[mid];
+		if (arr[i] > mid)
+			temp_length += arr[i] - mid;
 	}
 
-	if (temp_length == target) return arr[mid];
+	if (temp_length == target) return mid;
 	else if (temp_length > target)
 		return Binary_Search(arr, target, mid + 1, end);
 	else
