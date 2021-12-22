@@ -1,0 +1,3 @@
+KUNHEE
+.chapter 8 예제3
+#pibo(2) + pibo(1) 연산할 때, pibo(2)에서 return 1 되야하는 것 아닌가?
