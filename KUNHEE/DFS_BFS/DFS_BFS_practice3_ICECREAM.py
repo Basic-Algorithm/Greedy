@@ -12,9 +12,6 @@ visited = [False] * np.ones(shape = (n, m), dtype = np.int8)
 #     for j in graph[i]:
 #         if graph[i][j] == 0:
 #             visited[i][j] = True
-    
-#     for i in graph[0]:
-#         if not visited[i]:
-            
-            
+
+
 print(visited)

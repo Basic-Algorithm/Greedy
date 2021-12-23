@@ -1,3 +1,13 @@
 KUNHEE
 .chapter 8 예제3
-#pibo(2) + pibo(1) 연산할 때, pibo(2)에서 return 1 되야하는 것 아닌가?
+{% comment %} pibo(2) + pibo(1) 연산할 때, pibo(2)에서 return 1 되야하는 것 아닌가? {% endcomment %}
+왜 출력값에서 마지막에 f(5)와 8은 없는가?
+
+.1_Making_One.cpp
+{% comment %} BottomUp으로 풀어야하는 것은 알겠으나, 답을 읽어봐도 어떻게 풀어야하는지 감이 안 잡힙니다. {% endcomment %}
+line33을 line27로 올려야하지 않나요?
+예를 들어, d[6]을 구할 때.
+
+
+.2_Ant_Warrior.cpp
+line45~46 에 대해 이해가 잘 안됩니다.
